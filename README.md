@@ -1,6 +1,12 @@
 # 🔥 抖音爆款分析系统 / TikTok Viral Video Analyzer
 
+[![GitHub](https://img.shields.io/badge/GitHub-mkz0930%2Fdouyin--viral--analysis-blue?logo=github)](https://github.com/mkz0930/douyin-viral-analysis)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 自动分析每天全网最火视频的规律，提供数据驱动的爆款建议。
+
+**🔗 GitHub Repository:** https://github.com/mkz0930/douyin-viral-analysis
 
 ## ✨ 功能特性 / Features
 
