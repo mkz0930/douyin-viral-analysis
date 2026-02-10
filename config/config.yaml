@@ -1,0 +1,32 @@
+# Scraper Configuration
+scraper:
+  source: mock  # mock | api | crawler
+  batch_size: 50
+  interval: 3600  # seconds
+
+# Analyzer Configuration
+analyzer:
+  enable_ai: false
+  ai_provider: openai  # openai | gemini
+  dimensions:
+    - duration
+    - tags
+    - music
+    - category
+
+# Reporter Configuration
+reporter:
+  formats:
+    - text
+    - charts
+  charts:
+    - duration_dist
+    - tag_cloud
+    - music_trend
+    - category_pie
+  output_dir: generated/charts
+
+# Database Configuration
+database:
+  path: viral_videos.db
+  backup: true
